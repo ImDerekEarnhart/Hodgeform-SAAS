@@ -1,0 +1,1 @@
+var e=[`HYPOTHESIS`,`CONJECTURE`,`FINITE_SURVIVOR`,`PROVED_ON_PAPER`,`USE_NOW`,`FALSIFIED`,`SUPERSEDED`],t=[`supported`,`refuted`,`inconclusive`,`artifact`],n=[`same_case`,`same_family`,`cross_domain`,`external`],r=[`DISCOVERY_RUN`,`EXTERNAL_EXPERIMENT`,`GENOME_TOURNAMENT`,`INDEPENDENT_VERIFIER`,`PROOF_ASSISTANT`];export{r as i,t as n,n as r,e as t};

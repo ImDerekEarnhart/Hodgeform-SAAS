@@ -1,0 +1,1 @@
+var e={freezeOperator:`I reviewed this exact discovery operator`,freezeTournament:`I reviewed this exact blind tournament`,approvePlan:`I approve this exact plan`,approveExperiment:`I approve this exact frozen experiment and staged manifest`,deleteCase:`DELETE THIS CASE`};export{e as t};

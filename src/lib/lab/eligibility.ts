@@ -1,0 +1,32 @@
+import type { SourceKind } from "./types";
+
+export const DECISION_KINDS = [
+  "ARCHITECTURE_ACTIVATION",
+  "CODE_DEPLOYMENT",
+  "DISCOVERY_OPERATOR_REVIEW",
+  "LANGUAGE_LIMIT_CERTIFICATE_REVIEW",
+  "POLICY_PROMOTION",
+  "REPAIR_CANDIDATE_REVIEW",
+  "RESEARCH_POLICY_REVIEW",
+  "SCIENTIFIC_CLAIM_REVIEW",
+  "SEMANTIC_ACTIVATION",
+  "SEMANTIC_ADMISSION",
+  "VERIFICATION_REVIEW",
+] as const;
+
+export const ELIGIBILITY_POLICY: Record<SourceKind, string[]> = {
+  DISCOVERY_RUN: ["RESEARCH_POLICY_REVIEW", "SCIENTIFIC_CLAIM_REVIEW"],
+  EXTERNAL_EXPERIMENT: ["REPAIR_CANDIDATE_REVIEW", "SCIENTIFIC_CLAIM_REVIEW"],
+  GENOME_TOURNAMENT: ["DISCOVERY_OPERATOR_REVIEW"],
+  INDEPENDENT_VERIFIER: ["VERIFICATION_REVIEW"],
+  PROOF_ASSISTANT: ["LANGUAGE_LIMIT_CERTIFICATE_REVIEW"],
+};
+
+export function eligibilityFor(sourceKind: SourceKind): {
+  allowed: string[];
+  prohibited: string[];
+} {
+  const allowed = ELIGIBILITY_POLICY[sourceKind] ?? [];
+  const prohibited = DECISION_KINDS.filter((d) => !allowed.includes(d));
+  return { allowed, prohibited };
+}

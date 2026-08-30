@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hodgeform Lab",
+      "hasCanvas": false,
+      "bodyTextLen": 3144,
+      "bodyTextHash": "11238d147b48d9f5c20447f1af9212bdcfc9593f289b35abd00b29024a58759d",
+      "bodyTextPrefix": "Hodgeform Lab ORBITA 0.10.0 · TENANT ISOLATED A Hodgeform of you",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hodgeform Lab",
+      "hasCanvas": false,
+      "bodyTextLen": 3144,
+      "bodyTextHash": "11238d147b48d9f5c20447f1af9212bdcfc9593f289b35abd00b29024a58759d",
+      "bodyTextPrefix": "Hodgeform Lab ORBITA 0.10.0 · TENANT ISOLATED A Hodgeform of you",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

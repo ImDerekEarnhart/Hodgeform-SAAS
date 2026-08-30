@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hodgeform Lab",
+      "hasCanvas": false,
+      "bodyTextLen": 3174,
+      "bodyTextHash": "7aa7290479d10b6361d4ef5a35bb27eabea50881657d7aa6b014fcfa50eabd30",
+      "bodyTextPrefix": "Hodgeform Lab Sign in Open a lab ORBITA 0.10.0 · TENANT ISOLATED",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hodgeform Lab",
+      "hasCanvas": false,
+      "bodyTextLen": 3174,
+      "bodyTextHash": "7aa7290479d10b6361d4ef5a35bb27eabea50881657d7aa6b014fcfa50eabd30",
+      "bodyTextPrefix": "Hodgeform Lab Sign in Open a lab ORBITA 0.10.0 · TENANT ISOLATED",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
